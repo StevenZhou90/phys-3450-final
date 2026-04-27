@@ -1,0 +1,7 @@
+{
+  "one_qubit_relative_kernel_error": 1.6613809976107715e-16,
+  "raw_logistic_accuracy": 0.8888888888888888,
+  "polynomial_logistic_accuracy": 0.8888888888888888,
+  "quantum_kernel_svm_accuracy": 0.9444444444444444,
+  "classical_rbf_svm_accuracy": 0.9722222222222222
+}

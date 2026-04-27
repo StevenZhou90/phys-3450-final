@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+.DS_Store
+.cache/
+.mplconfig/
+.swift-module-cache/
+pdf_pages/
+pdf_preview/

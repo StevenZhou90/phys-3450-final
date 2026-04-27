@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quantum-feature-maps"
+version = "0.1.0"
+description = "Minimal Qiskit project for studying quantum feature maps as embeddings for machine learning."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "matplotlib>=3.10",
+  "numpy>=2.4",
+  "pandas>=3.0",
+  "qiskit>=2.4",
+  "scikit-learn>=1.8",
+  "seaborn>=0.13",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
