@@ -8,3 +8,4 @@ __pycache__/
 .swift-module-cache/
 pdf_pages/
 pdf_preview/
+report/
